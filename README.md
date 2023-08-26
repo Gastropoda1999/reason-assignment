@@ -4,5 +4,11 @@
 
 #To start
 
+#Run on Linux
+
 #1.npm install
+
 #2.npm run start
+
+Use port : http://localhost:1234/
+
