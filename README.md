@@ -3,8 +3,8 @@ The fundamental code for this project was cloned from https://github.com/wyze/re
 
 # Set up
   Run on Linux
-  $npm install
-  $npm run start
+  1.$npm install
+  2.$npm run start
 
 # Use port : http://localhost:1234/
 
