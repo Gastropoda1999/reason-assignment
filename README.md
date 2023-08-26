@@ -7,11 +7,7 @@ Run this code on Linux
 > Use port : http://localhost:1234/
 ```sh
 $ git clone https://github.com/Gastropoda1999/reason-assignment.git
-```
-```sh
 $ npm install
-```
-```sh
 $ npm run start
 ```
 ## Out put
