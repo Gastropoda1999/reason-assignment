@@ -3,10 +3,12 @@
 
 ## Set up
 Run this code on Linux
+
+> Use port : http://localhost:1234/
+
 ```sh
 $ npm install
 $ npm run start
 ```
-
-## Use port : http://localhost:1234/
-
+## Out put
+![image](https://github.com/Gastropoda1999/reason-assignment/assets/97719212/f5bd7195-4191-420e-a38f-ca68faf428d6)
