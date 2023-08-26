@@ -34,21 +34,27 @@ module Styles = {
   let blue = variant("6d71ff");
   let green = variant("3bf3a9");
   let orange = variant("ff8754");
+  let lightGray = variant("aabbcc");
+  let orangeYellow = variant("f0a500");
+  let emeraldGreen = variant("2ecc71");
+  let red = variant("e74c3c");
+  let blue2 = variant("3498db");
+  let pumpkinOrange = variant("d35400");
 };
 
 [@react.component]
 let make = (~action: Store.action, ~text) => {
   let color =
     switch (action) {
-    | Clear
-    | Percent
+    | Clear => Styles.lightGray
+    | Percent => Styles.orangeYellow
     | PosNeg => Styles.green
-    | Add
-    | Divide
-    | Equals
-    | Multiply
+    | Add => Styles.emeraldGreen
+    | Divide => Styles.blue
+    | Equals => Styles.blue2
+    | Multiply => Styles.pumpkinOrange
     | Subtract => Styles.orange
-    | _ => Styles.blue
+    | _ => Styles.red
     };
 
   let addOperation = Store.useAddOperation();

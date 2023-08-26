@@ -21,6 +21,6 @@ module Styles = {
 [@react.component]
 let make = () =>
   <div className=Styles.container>
-    <h1 className=Styles.title> "Reason Calculator"->React.string </h1>
+    <h1 className=Styles.title> "Name : Panuwat"->React.string </h1>
     <Features />
   </div>;
